@@ -8,14 +8,29 @@ import 'font-awesome/css/font-awesome.css'
 class Image extends Component {
     state = {
         header: {},
-        image: []
+        image: [],
+        nextPic: '',
+        prevPic: ''
     }
 
     componentDidMount() {
-        const id = this.props.match.params.id
+        const id = this.props.match.params.id 
         Axios.get(`http://localhost:3001/images/${id}`).then(resp => {
             this.setState({
-                header: resp.data
+                header: resp.data,
+                nextPic: Number(resp.data.id) +1,
+                prevPic: Number(resp.data.id) -1
+            }) 
+        })
+    }
+
+    componentWillReceiveProps(newProps){
+        const id = this.props.match.params.id 
+        Axios.get(`http://localhost:3001/images/${id}`).then(resp => {
+            this.setState({
+                header: resp.data,
+                nextPic: Number(resp.data.id) +1,
+                prevPic: Number(resp.data.id) -1
             }) 
         })
     }
@@ -27,14 +42,13 @@ class Image extends Component {
     render(){
         return (
             <div className="picpage">
+               
                 <h1>{this.state.header.name}</h1>
-
+                <Link to={'/'}><h2>Back to Albums page</h2></Link> 
                 <div className="picbox">
-
-                <div className= "arrowleft"><i className="fa fa-angle-left"></i></div>
-                
+                <Link to={'/Picture/' + this.state.prevPic}> <div className= "arrowleft"><i className="fa fa-angle-left"></i></div></Link>
                    <img src={this.state.header.url}/>
-                    <div className="arrowright"><i className="fa fa-angle-right"></i></div>
+                <Link to={'/Picture/' + this.state.nextPic}> <div className= "arrowright"><i className="fa fa-angle-right"></i></div></Link>
                 </div>
             </div>
         )
