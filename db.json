@@ -1,0 +1,152 @@
+{
+    "albums": [
+        {
+            "id": 1,
+            "name": "x-men variants",
+            "coverPhoto": "https://res.cloudinary.com/teepublic/image/private/s--BhcOpQWQ--/t_Preview/b_rgb:36538b,c_limit,f_jpg,h_630,q_90,w_630/v1487008939/production/designs/1216613_1.jpg"
+
+        },
+        {
+            "id": 2,
+            "name": "deadpool variants",   
+            "coverPhoto": "https://www.skinit.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/d/e/dedpol02.jpg"
+
+        },
+        {
+            "id": 3,
+            "name": "spiderman variants",
+            "coverPhoto": "https://img.cinemablend.com/cb/3/8/8/d/a/7/388da77d4bc8dbc50498b86b4a3a3fd9b7bdc5e14b3ccc93265fdc17624c1362.jpg"
+
+        },
+        {
+            "id": 4,
+            "name": "ironman variants",
+            "coverPhoto": "https://i.pinimg.com/736x/4f/9d/08/4f9d08b7b5d70e5f2a12db3113f9da40.jpg"
+
+        },
+        {
+            "id": 5,
+            "name": "black panther variants",
+            "coverPhoto": "https://i.pinimg.com/originals/98/44/5d/98445de5583ee18b58f85d5b81f4f490.jpg"
+
+        },
+        {
+            "id": 6,
+            "name": "daredevil variants",
+            "coverPhoto": "https://images-na.ssl-images-amazon.com/images/I/516tvUIHKNL._SY606_.jpg"
+
+        }
+    ],
+    "images": [
+        {
+            "id": 1,
+            "name": "x-men baby ",
+            "url": "https://cdn.shopify.com/s/files/1/0227/7137/products/tumblr_my5509Aveu1rk7w2qo1_500_1024x1024.jpg?v=1468440897",
+            "albumId": 1
+        },
+        {
+            "id": 2,
+            "name": "x-men hip hop ",
+            "url": "https://cdn.nexternal.com/dreamland/images/Xmen_92_1_HipHop.jpg",
+            "albumId": 1
+        },
+        {
+            "id": 3,
+            "name": "deadpool troll",
+            "url": "https://pizow.files.wordpress.com/2012/10/unimpresseddeadpool-anxm.jpg",
+            "albumId": 1
+        },
+        {
+            "id": 4,
+            "name": "abbey zombie road",
+            "url": "https://comicboxnews.files.wordpress.com/2013/05/51817fbbcb15a.jpg",
+            "albumId": 2
+        },
+        {
+            "id": 5,
+            "name": "deadpool baby",
+            "url": "https://www.picclickimg.com/d/l400/pict/401559000589_/Deadpool-2013-1-1st-Print-Skottie-Young-Baby.jpg",
+            "albumId": 2
+        },
+        {
+            "id": 6,
+            "name": "deadpool yes baby meme ",
+            "url": "https://vignette.wikia.nocookie.net/marveldatabase/images/d/d5/Agents_of_S.H.I.E.L.D._Vol_1_1_Deadpool_Variant.jpg/revision/latest?cb=20151212083059",
+            "albumId": 2
+        },
+        {
+            "id": 7,
+            "name": "spider tsum tsum troll",
+            "url": "https://i.pinimg.com/originals/a9/70/70/a97070d679cb3c4a981da53f1167d59e.jpg",
+            "albumId": 3
+        },
+        {
+            "id": 8,
+            "name": "spiderman hip hop ",
+            "url": "https://vignette.wikia.nocookie.net/marveldatabase/images/b/b6/Amazing_Spider-Man_Vol_4_1_Hip-Hop_Variant_Textless.jpg/revision/latest?cb=20161016215613",
+            "albumId": 3
+        },
+        {
+            "id": 9,
+            "name": "spiderverse baby",
+            "url": "https://www.comicherou.com/wp-content/uploads/2017/02/superior-spiderman-32-baby.jpg",
+            "albumId": 3
+        },
+        {
+            "id": 10,
+            "name": "iron baby",
+            "url": "https://www.comicherou.com/wp-content/uploads/2016/02/invincible-iron-man-1-baby.jpg",
+            "albumId": 4
+        },
+        {
+            "id": 11,
+            "name": "ironman gunslinger",
+            "url": "https://img.purch.com/o/aHR0cDovL3d3dy5uZXdzYXJhbWEuY29tL2ltYWdlcy9pLzAwMC8wMzAvMzEyL29yaWdpbmFsL1gtRmFjdG9yXzIwNF9JTVZhcmlhbnQuanBn",
+            "albumId": 4
+        },
+        {
+            "id": 12,
+            "name": "ironman hip hop",
+            "url": "https://images.complex.com/complex/images/c_limit,w_680/fl_lossy,pg_1,q_auto/flj61c7mrwna6im0xffj/iron-man-invincible",
+            "albumId": 4
+        },
+        {
+            "id": 13,
+            "name": "black panther hip hop",
+            "url": "https://vignette.wikia.nocookie.net/marveldatabase/images/9/93/Black_Panther_Vol_6_1_Hip-Hop_Variant.jpg/revision/latest?cb=20160401075002",
+            "albumId": 5
+        },
+        {
+            "id": 14,
+            "name": "black panther baby",
+            "url": "https://i.pinimg.com/originals/dc/15/20/dc1520469869614871cd3d4a5dc15060.jpg",
+            "albumId": 5
+        },
+        {
+            "id": 15,
+            "name": "black panther wakanda forever",
+            "url": "https://cdn.shopify.com/s/files/1/1496/3582/products/black_panther_1_1_10.jpg?v=1526069032",
+            "albumId": 5
+        },
+        {
+            "id": 16,
+            "name": "daredevil deadpool troll",
+            "url": "https://i.pinimg.com/originals/b3/e0/ae/b3e0ae609d46f8339b5e3194d9af7e46.jpg",
+            "albumId": 6
+        },
+        {
+            "id": 17,
+            "name": "daredevil baby",
+            "url": "https://metron-live.s3.amazonaws.com/products/covers/000/018/978/original/open-uri20171124-13-1v8lulp?1511512027",
+            "albumId": 6
+        },
+        {
+            "id": 18,
+            "name": "daredevil hip hop",
+            "url": "https://i.annihil.us/u/prod/marvel/i/mg/1/20/563930e94f186/clean.jpg",
+            "albumId": 6
+        }
+       
+       
+    ]
+}

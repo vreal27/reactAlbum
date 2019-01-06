@@ -1,0 +1,76 @@
+.albumpage {
+    margin: auto;
+    border: solid 1px black;
+    width: 800px;
+}
+
+.albumpage h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.albumpage h2 {
+    margin-left: 5px;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.albumlinks {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    height: 400px;
+    width: 25%;
+    font-size: 16px;
+    margin: 0;
+    margin-top: 5px;
+    justify-content: center;
+}
+
+.albumlinks li {
+    width: 60px;
+    height: 46px;
+    padding-right: 40px;
+    margin: 13px;
+}
+
+.albumcontainer{
+    border: solid 1px black;
+    height: auto;
+    width: auto;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.piclist {
+    height: 400px;
+    width: 67%;
+    border-left: solid 1px black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pics {
+    height: 300px;
+    width: 165px;
+    margin: 5px;
+    margin-top: 50px;
+    border: solid 1px black;
+}
+
+.pics img {
+    object-fit: fill;
+    height: 250px;
+    width: 165px;
+    border-bottom: solid 1px black;
+}
+
+.pics p {
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+  
+}

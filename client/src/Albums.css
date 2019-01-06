@@ -1,0 +1,47 @@
+.Albums {
+    display: block;
+    text-align: center;
+    border: solid 1px black;
+    width: 500px;
+    height: 600px;
+    margin: auto;
+}
+
+.Albums h1 {
+    color: white;
+    background-color:blue ;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px black;
+}
+
+.albumselect {
+    margin: 10px;
+    border: solid 1px black;
+    height: 160px;
+    width: 100px;
+}
+
+.albumselect p {
+    margin: 0;
+    padding-top: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.albumselect img {
+    height: 100px;
+    width: 100px;
+    object-fit: fill;
+    border-bottom: solid 1px black;
+}
+.albumbox {
+    height: auto;
+    width: 480px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}

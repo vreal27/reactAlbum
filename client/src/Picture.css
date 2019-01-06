@@ -1,0 +1,35 @@
+.picpage {
+    margin: auto;
+    text-align: center;
+    border: solid 1px black;
+}
+
+.picpage h1 {
+    border-bottom: solid 1px black;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+.picbox {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.arrowright, .arrowleft {
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 12px;
+    height: 80px;
+    width: 80px;
+    border: solid 1px black;
+    font-size: 80px;
+}
+
+.picbox img {
+    object-fit: fill;
+    height: 600px;
+    width: 500px;
+}
