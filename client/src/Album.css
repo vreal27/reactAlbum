@@ -44,6 +44,7 @@ body {
     margin: 0;
     margin-top: 10px;
     justify-content: center;
+    
 }
 
 .albumlinks li {
@@ -51,6 +52,7 @@ body {
     height: 46px;
     padding-right: 40px;
     margin: 13px;
+ 
 }
 
 .albumcontainer{

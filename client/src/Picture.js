@@ -10,7 +10,8 @@ class Image extends Component {
         header: {},
         image: [],
         nextPic: '',
-        prevPic: ''
+        prevPic: '',
+        albumId: ''
     }
 
     componentDidMount() {
@@ -19,13 +20,15 @@ class Image extends Component {
             this.setState({
                 header: resp.data,
                 nextPic: Number(resp.data.id) +1,
-                prevPic: Number(resp.data.id) -1
+                prevPic: Number(resp.data.id) -1,
+                albumId: resp.data.albumId
             }) 
         })
     }
 
     componentWillReceiveProps(newProps){
-        const id = this.props.match.params.id 
+       
+            const id = this.props.match.params.id 
         Axios.get(`http://localhost:3001/images/${id}`).then(resp => {
             this.setState({
                 header: resp.data,
@@ -33,6 +36,7 @@ class Image extends Component {
                 prevPic: Number(resp.data.id) -1
             }) 
         })
+        
     }
 
 
