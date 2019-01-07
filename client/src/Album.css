@@ -1,18 +1,37 @@
+body {
+    background-image: url("https://thirdeyecomics.com/wp-content/uploads/2018/05/1header.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    background-color: gray;
+    background-blend-mode: screen; 
+}
+
 .albumpage {
     margin: auto;
     border: solid 1px black;
     width: 800px;
+    background-color: rgba(192, 187, 187,0.5);
 }
 
 .albumpage h1{
+    height: 66px;
+    padding-top: 10px;
+    margin:0;
     text-align: center;
     font-size: 50px;
+    font-weight: initial;
+    color: white;
+    background-color: blue;
 }
 
 .albumpage h2 {
-    margin-left: 5px;
+    padding-left: 5px;
+    padding-bottom: 10px;
     font-size: 15px;
+    color: white;
     text-decoration: underline;
+    background-color: blue;
+    margin: 0;
 }
 
 .albumlinks {
@@ -23,7 +42,7 @@
     width: 25%;
     font-size: 16px;
     margin: 0;
-    margin-top: 5px;
+    margin-top: 10px;
     justify-content: center;
 }
 
@@ -46,7 +65,7 @@
 }
 
 .piclist {
-    height: 400px;
+    height: 410px;
     width: 67%;
     border-left: solid 1px black;
     display: flex;

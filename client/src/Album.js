@@ -44,6 +44,8 @@ class Album extends Component {
         }
         
     }
+
+    
     render(){
         return (
             <div className="albumpage">
